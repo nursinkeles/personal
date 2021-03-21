@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"/>
+    <title>nurşinkeleş</title>
+    <style>
+        body{
+            padding:0;
+            margin: 0;
+            background:#f2f2f2;
+            font-family: 'Montserrat', sans-serif;
+          
+        }
+    .container{
+        width:80%;
+        height: auto;
+        margin: 55px auto;
+        display: flex;
+        justify-content: space-around;
+        align-items:center ;
+    }
+    .left-container{
+        background-color:#fff;
+        width:25%;
+        height: auto;
+        border:1px solid rgb(206, 206, 206);
+        -webkit-box-shadow: 0px 4px 13px -4px rgba(0,0,0,0.82);
+        -moz-box-shadow: 0px 4px 13px -4px rgba(0,0,0,0.82);
+         box-shadow: 0px 4px 13px -4px rgba(0,0,0,0.82);
+         border-radius: 15px 0 0 15px;
+         padding-bottom:15px;
+         position: relative;
+         top:-355px;
+    }
+    .right-container{
+        background-color:#fff;
+        width:70%;
+        height:auto;
+        
+    }
+    .image{
+        width:100%;
+        height: auto;
+       
+        
+    }
+    .title{
+        text-align:center;
+        color: #383838; 
+    }
+    
+    .description{
+        text-align:center;
+        color:rgb(121, 118, 118);
+        font-size:14px;
+    }
+    .list ul{
+        padding:10px 0;
+        margin:15px 0;
+        border-top:1px dashed #eee;
+       /* background: rgb(211, 76, 76); */
+        color:#fff;
+        display:flex;
+        justify-content:space-around;
+    }
+    .liste{
+        width: 80%;
+        height:35px;
+        background:rgb(211, 76, 76);
+        border:5px solid #eee;
+        text-align: center;
+        line-height: 35px;
+        list-style: none;
+    }
+    .smedia{
+        display:flex;
+        justify-content:space-around;
+        padding:0;
+        margin-top:8px;
+    }
+
+    .social{
+        text-align:center;
+        list-style:none;
+    }
+    .facebook, .twitter,.instagram{
+        transition: 1s;
+        cursor:pointer;
+    }
+    .facebook:hover{
+        color: rgb(1, 71, 161);
+    }
+    .twitter:hover{
+        color: rgb(34, 123, 240);
+    }
+
+    .instagram:hover{
+        color: #d6249f;
+        color: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+    }
+    .myblogtitle{
+        color:rgb(211, 76, 76);
+        margin-left:40px;
+        margin-top: 45px;
+        padding-bottom:30px;
+        border-bottom:1px dashed rgb(206, 206, 206);
+    }
+    .first{
+        font-weight:bold;
+        font-size:25px;
+        padding-left:20px;
+        color:black;
+    }
+    .tarih{
+        padding-left:20px;
+        font-size:15px;
+        position:relative;
+        top:-10px;
+    }
+    .paragraf{
+        padding:0 35px ;
+        
+    }
+    .firstparagraf{
+        margin:20px;
+        letter-spacing: 2px;
+        word-spacing: 5px;
+        line-height:25px;
+        font-size:14px;
+    }
+    button{
+        float:right;
+        border:none;
+        color:rgb(211, 76, 76);
+        cursor:pointer;
+        font-size:16px;
+        font-weight: 700;
+    }
+    </style>
+
+</head>
+<body>
+    <div class="container">
+  <div class="left-container animate__animated animate__fadeInLeft">
+      <div>
+          <img class="image" src="image/profil.jpg">
+      </div>
+      <div>
+          <h2 class="title">NURŞİN KELEŞ</h2>
+      </div>
+      <div class="description">FRONT-END DEVELOPER</div>
+
+      <div class="list">
+        <ul>
+           <li class="liste">content</li>
+           <li class="liste">about</li>
+           <li class="liste">contact</li>
+        </ul>
+      
+    </div>
+  <div> 
+    <ul class="smedia">
+        <li class="social facebook"><i class="fab fa-facebook-square fa-3x"></i></li>
+        <li class="social twitter"><i class="fab fa-twitter-square fa-3x"></i></li>
+        <li class="social instagram"><i class="fab fa-instagram-square fa-3x"></i></li>
+     </ul>
+  </div>
+  </div>
+  <div class="right-container">
+      <div class="myblog">
+          <h2 class="myblogtitle">My Blog</h2>
+      </div>
+      <div class="firstparagraf">
+        <h2 class="first"> Her zaman bir başlangıç yazımız olmalı</h2>
+        <p class="tarih">10/09/2020 / by Nurşin Keleş</p>
+        <p class="paragraf">1500'lerden beri kullanılan standart Lorem Ipsum pasajı "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <button>Daha fazla..</button>
+    </div>
+    <br>
+    <div class="firstparagraf">
+        <h2 class="first"> Zamanın ne kadar bükücü bir rolü var</h2>
+        <p class="tarih">10/09/2020 / by Nurşin Keleş</p>
+        <p class="paragraf">1500'lerden beri kullanılan standart Lorem Ipsum pasajı "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <button>Daha fazla..</button>
+    </div>
+    <br>
+    <div class="firstparagraf">
+        <h2 class="first"> Interstaller gerçekten ne anlatıyor ?</h2>
+        <p class="tarih">10/09/2020 / by Nurşin Keleş</p>
+        <p class="paragraf">1500'lerden beri kullanılan standart Lorem Ipsum pasajı "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <button>Daha fazla..</button>
+    </div>
+    <br>
+    <div class="firstparagraf">
+        <h2 class="first"> Canbay dinlerken kod yazmak yararlı mı ?</h2>
+        <p class="tarih">10/09/2020 / by Nurşin Keleş</p>
+        <p class="paragraf">1500'lerden beri kullanılan standart Lorem Ipsum pasajı "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <button>Daha fazla..</button>
+    </div>
+  </div>  </div>
+ 
+  
+</body>
+</html>
